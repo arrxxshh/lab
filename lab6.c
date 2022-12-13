@@ -135,8 +135,24 @@ int i, a, b, c, s;
     
     printf("hcf is %d " , hcf);
     printf("lcm is %d " , lcm);*/
+
+
 //fibonacci series
-  /*  int a,i;
+int a1,b1,c1,i1;
+a1=0;
+b1=1;
+printf("%d %d", a1,b1);
+for (i1=1;i1<5;i1++){
+   
+   c1=a1+b1;
+   printf(" %d  ",c1);
+   a1=b1;
+   b1=c1;
+   
+
+}
+
+   int a,i;
     printf(" eneter no. of terms after zero");
     scanf("%d",&a);
     int b[a];
@@ -150,6 +166,6 @@ int i, a, b, c, s;
    {
       printf("%d ",b[i]);
    }
-   */
+   
 
 }

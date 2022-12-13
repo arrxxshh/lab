@@ -262,6 +262,8 @@ void delete_element(){
    }
    else{printf("element not found");}
 }
+
+
 int main()
 {
    //array_reversal
@@ -285,11 +287,9 @@ int main()
  //largest and smallest
    //max_min();
   
-   /*//to add , transpose and multiply matrix
-    add();
-    transpose();
-    mul();
-    */
+   //to add , transpose and multiply matrix
+   //add();transpose();mul();
+    
     
 }
 
